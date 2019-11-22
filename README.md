@@ -11,6 +11,6 @@ $ npm install
 $ gulp setup 
 
 # watching files
-gulp watch
+$ gulp watch
 ```
 
