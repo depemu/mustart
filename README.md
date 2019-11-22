@@ -1,10 +1,16 @@
 # Mustart
-Front-end development starter
+Front-end development starter.
 
-```javascript
-npm install
 
-gulp setup // only for the very first time, to create default directory structure
-gulp watch // watching files
+## Getting Started
+``` bash
+# install dependencies
+$ npm install
+
+# only for the very first time, to create default directory structure
+$ gulp setup 
+
+# watching files
+gulp watch
 ```
 
