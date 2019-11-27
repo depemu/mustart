@@ -34,6 +34,7 @@ var onError            = function(err) { // Custom error msg with beep sound and
     gutil.log(gutil.colors.red(err));
 };
 var buildDirectory = 'public';
+var babel = require('gulp-babel');
 
 function getBowerDirectory() {
   var bowerComponents = "./bower_components";
@@ -110,6 +111,13 @@ gulp.task('scripts', function() {
   var mustart = require('./mustart.json')
   return gulp.src(mustart.scripts.concat(myJsFiles))
   .pipe(plumber({ errorHandler: onError }))
+  .pipe(babel({
+    presets: [
+      ['@babel/env', {
+        modules: false
+      }]
+    ]
+  }))
   //.pipe(sourcemaps.init())
   .pipe(gconcat('bundle.js'))
   .pipe(uglify())
