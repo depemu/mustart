@@ -49,7 +49,7 @@ gulp.task('styles', () => {
 })
 
 gulp.task('scripts', () => {
-  return gulp.src([ `${dir.scripts}/*.js` ])
+  return gulp.src(mustart.scripts.concat([ `${dir.scripts}/*.js` ]))
     .pipe(plumber())
     .pipe(babel({
       presets: [ '@babel/env' ]
