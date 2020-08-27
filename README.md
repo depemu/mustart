@@ -7,9 +7,6 @@ Front-end development starter.
 # install dependencies
 $ yarn install
 
-# only for the very first time, to create default directory structure
-$ gulp setup
-
-# watching files
-$ gulp watch
+# run tasks and watching files
+$ gulp
 ```
