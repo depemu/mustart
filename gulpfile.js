@@ -36,10 +36,10 @@ gulp.task('styles', () => {
     .pipe(sass({
       indentedSyntax: true
     }))
-    .pipe(autoprefixer({
+    /*.pipe(autoprefixer({
       browsers: ['last 5 versions'],
       cascade: false
-    }))
+    }))*/
     .pipe(cleanCss())
     .pipe(rename({
       suffix: '.min'
