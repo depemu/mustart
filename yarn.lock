@@ -1968,8 +1968,9 @@ commander@^2.2.0, commander@^2.8.1:
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
 compass-mixins@^0.12.10:
-  version "0.12.10"
-  resolved "https://registry.yarnpkg.com/compass-mixins/-/compass-mixins-0.12.10.tgz#cd9f15f829c4e960cc43bb226f049b28beb99d41"
+  version "0.12.12"
+  resolved "https://registry.yarnpkg.com/compass-mixins/-/compass-mixins-0.12.12.tgz#95e8219267e02c3f27b540bff764d2ad68258bd0"
+  integrity sha512-wlTxz4lsIv/3o+rdyBOTZpQFFJeWPCRlYClaEXcaFe6QrAJ5qibTAgH53LyjfGQL6mmebTfjVHM0hLsxjGj+fw==
 
 component-bind@1.0.0:
   version "1.0.0"
